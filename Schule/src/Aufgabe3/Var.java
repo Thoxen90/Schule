@@ -11,7 +11,7 @@ public class Var {
 
 	static Label lbl1;
 	static JFrame jf1;
-	static int screenwidth = 1000, screenheight = 1025;
+	static int screenwidth = 1400, screenheight = 1025;
 	static boolean moveup = false, movedown = false, moveleft = false, moveright = false;
 	static int x = 473, y = 512;
 	static BufferedImage ipunkt, ikoordinatensystem;
@@ -19,7 +19,8 @@ public class Var {
 	static double xx = 0, yy = 0;
 	static JTextField xeingabe, yeingabe;
 	static JButton perform;
-
+	static int tempx, tempy=0;
+	static boolean Fehler = false;
 
 	public Var() {
 		try {

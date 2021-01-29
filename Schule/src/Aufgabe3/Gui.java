@@ -39,7 +39,7 @@ public class Gui {
 		Var.jf1.requestFocus();
 		
 		Var.perform = new JButton("OK");		
-		Var.perform.setBounds(1150,300,70,30);
+		Var.perform.setBounds(1150,322,70,30);
 		Var.perform.addActionListener(new Listener());
 		Var.jf1.add(Var.perform);
 		
